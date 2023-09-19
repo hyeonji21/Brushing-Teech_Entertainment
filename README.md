@@ -101,13 +101,6 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.01)  # Adam 제일 성능�
    optimizer로는 Adam이 가장 좋은 성능을 보여 Adam을 사용하였으며, 이진 분류로 Binary CrossEntropy를 loss function으로 선택했다.
    
    
- ### validation test 시에 나온 결과 (DMF)
-   
-   ![image](https://user-images.githubusercontent.com/74550931/186811601-b363417f-0cab-443b-a287-bda7eba68edd.png)
-
-    : validation test시 overtitting이 나타남을 확인함.
-    : 추후, 데이터 증강 및 하이퍼파리미터 조정을 통해 결과 향상을 기대해볼 수 있을 것이라 생각함.
-
 
    
    
